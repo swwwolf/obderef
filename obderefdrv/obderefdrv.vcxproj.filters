@@ -7,21 +7,22 @@
     </Filter>
     <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Driver Files">
+      <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+    </Filter>
     <Filter Include="Header Files\include">
-      <UniqueIdentifier>{7fa8ae88-1d54-43bd-b0d3-c2fb83ce02d1}</UniqueIdentifier>
+      <UniqueIdentifier>{bc0b56f1-9d6e-4742-ab62-c221b1744a3c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="obderef.h">
+    <ClInclude Include="init.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\include\control.h">
@@ -29,7 +30,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="obderef.cpp">
+    <ClCompile Include="init.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

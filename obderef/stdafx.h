@@ -1,15 +1,12 @@
-// stdafx.h : include file for standard system include files,
-// or project specific include files that are used frequently, but
-// are changed infrequently
-//
+/*
+* This code is licensed under the MIT license (MIT).
+* Copyright © 2018  Vyacheslav Rusakoff (@swwwolf)
+*/
 
-#pragma once
-
-#include "targetver.h"
+#ifndef OBDEREF_STDAFX_H_
+#define OBDEREF_STDAFX_H_
 
 #include <stdio.h>
 #include <tchar.h>
 
-
-
-// TODO: reference additional headers your program requires here
+#endif  // OBDEREF_STDAFX_H_
